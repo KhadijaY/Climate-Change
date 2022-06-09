@@ -15,14 +15,14 @@ Co2_dataset<-read.csv("https://raw.githubusercontent.com/owid/co2-data/master/ow
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Climate Change-Co2 emission trends in Russia"),
+    titlePanel("Climate Change-Co2 emission trends"),
 
     # Sidebar with a slider input for number of bins 
     mainPanel(),
     sidebarLayout(
         sidebarPanel(
             sliderInput("Co2 emission",
-                        "Number of co2 emissions in Russia:",
+                        "Number of co2 emissions",
                         min = 1,
                         max = 8000,
                         value = 30)
