@@ -16,7 +16,7 @@ ui<-fluidPage(
   titlePanel("Co2 Trends compared to Years"),
   sidebarLayout(
     sidebarPanel(
-     # selectInput(inputId="year",label="Select year",choices=c("1800","1900","2000","2010"),selected="2000"),
+     selectInput(inputId="year",label="Select year",choices=c("1800","1900","2000","2010"),selected="2000"),
   
       
     ),
