@@ -13,6 +13,8 @@ library(shiny)
 library(tidyverse)
 library(plotly)
 ui<-fluidPage(
+   h1("CO2 Trends Compared to Years:Histogram"), 
+  h5("This interactive Graph is a histogram and we are using this to see the a visual representation of the frequency distrubution of Co2 levels in comparison with years.We nee noticed that it was skewed to the left, meaning that more of the values are concentrated towards the left, thus indicatin that there has been an increase co2 levels in the later years.This graph is reflective because this generation uses cars for transportation, more plastics, and more fossil fuels, thus causing co2 levels to increase significantly."),
   titlePanel("Co2 Trends compared to Years"),
   sidebarLayout(
     sidebarPanel(
